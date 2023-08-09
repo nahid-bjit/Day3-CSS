@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.div-1{
+    width: 200px;
+    color: maroon;
+    border: 1px dotted red;
+    padding: 25px 15px 10px 5px;
+    margin: 20px auto;
+    
+
+}
+
+.inputcls {
+    border: none;
+    background-color: maroon;
+    outline: none;
+    transition: 1s;
+
+}
+.inputcls:focus {
+    background-color: cornflowerblue;
+}
+
+.flag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangle {
+    width: 500px;
+    height: 300px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: _animate_ 2s infinite;
+    border: 1px solid black;
+}
+
+
+
+.circle {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+@keyframes _animate_ {
+    0% {
+        background-color: green;
+    }
+    50% {
+        background-color: white;
+    }
+    0% {
+        background-color: green;
+    }
+}
